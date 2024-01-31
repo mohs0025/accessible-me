@@ -1,6 +1,8 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  font-size: 20px;/* Adjust the font and height */
+  line-height: 1.6;
+  background-color:rgb(224, 241, 246);
   margin: 0;
   padding: 0;
 }
@@ -14,11 +16,37 @@ h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
+h1 {
+  font-size: 4em;
+  /* Adjust the font */
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 1.6em;
+  /* Adjust the font */
+  /* color: brown ; */
+}
+
+header {
+  margin-bottom: 20px;
+   /* Adjust the margin */
+}
+
+.banner {
+  /* Adjust the margin */
+  margin-top: 40px; 
+}
+
 .container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+.container h1 {
+text-align: center;
+}
+/* center the heading */
 
 img {
   width: 100%;
@@ -67,5 +95,45 @@ form button {
 }
 
 .site-footer {
-  padding: 2rem 0;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
 }
+
+/* focus style for navigation part */
+/* a: focus {
+  outline: 4px solid black;
+} */
+
+.main-nav ul li a:focus {
+  outline: 2px solid brown;
+  background-color: black;
+  color: aliceblue;
+}
+
+/* focus style for button part */
+form button:focus {
+  outline: 2px solid brown;
+  background-color: black;
+  color: aliceblue;   
+}
+
+/* styling skip links */
+.skip-links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skip-links a{
+  position: absolute;
+  top: -3em;
+  background-color: black;
+  color: forestgreen;
+  padding: .5em 1em;
+  font-weight: bold;
+}
+
+.skip-links a:focus{
+  top: 0;
+}
+
