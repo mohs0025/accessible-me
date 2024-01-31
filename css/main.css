@@ -137,3 +137,46 @@ form button:focus {
   top: 0;
 }
 
+
+/* Adjust footer */
+footer {
+  text-align: end;
+  }  
+  
+  footer p {
+  margin-right: 40px;
+  }
+
+  
+form button[type="submit"] {
+  margin-top: 20px; /* Adjust the value as desired */
+  padding:10px; /* Make button biger */
+  }
+  
+
+  
+form input[type="text"],form input[type="email"],
+form textarea {
+width: 99%; /* Set the width to expand the form boxes to the full width of their container */
+}
+
+form input[type="text"],form input[type="email"]
+{
+height: 2em;
+}
+
+form textarea {
+height: 8em;
+}
+
+
+/*setting header, image and text*/
+/* .header {
+  background-color: rgb(167, 145, 138);
+  padding-top: 200px;
+  padding-bottom: 80px;
+  background-image: url(https://placekitten.com/1200/900); */
+  /* background-repeat: no-repeat; */
+  /* background-size:cover;
+  background-position: center;
+  } */
