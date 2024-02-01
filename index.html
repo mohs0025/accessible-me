@@ -21,16 +21,16 @@
 
   <!-- <a href=""></a> -->
 
-  <header role="ba">
+  <header role="banner">
     <div class="container">
       <!-- <div class="site-header"> -->
         <h1>Jam Box Studios</h1>
-        <nav class="main-nav" id="main-nav">
+        <nav class="main-nav" id="main-nav" role="navigation">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Reservation</a></li>
-            <li><a href="#">Studio</a></li>
+            <li><a href="#" role="menuitem">Home</a></li>
+            <li><a href="#" role="menuitem">Products</a></li>
+            <li><a href="#" role="menuitem">Reservation</a></li>
+            <li><a href="#" role="menuitem">Studio</a></li>
           </ul>
         </nav>
         <!-- <img src="https://placekitten.com/1200/900" class="banner" role="img" alt="The sad cat leaned against the wall at summer noon"> -->
@@ -38,7 +38,7 @@
     </div>
   </header>
 
-  <main class="container" id="main-content">
+  <main class="container" id="main-content" role="main">
     <section class="main-content">
       <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
@@ -47,7 +47,7 @@
       <section class="owner">
         <h2>Meet the owner</h2>
 
-        <ul itemscope itemtype="https://schema.org/Person">
+        <ul itemscope itemtype="https://schema.org/Person" role="list"> 
           <li itemprop="name"><strong>Name:</strong> John Doe</li>
           <li itemprop="jobTitle"><strong>Title:</strong> CEO</li>
           <!-- <li><strong>Email:</strong> <a href="johnjoe@jambox.ca"></a> </li> -->
@@ -56,7 +56,7 @@
         </ul>
 
         <h2>Address</h2>
-        <p itemscope itemprop="https://schema.org/Organization">
+        <p itemscope itemprop="https://schema.org/Organization" role="contentinfo">
           <span itemprop="name">Jambox Studios</span><br>
           <span itemprop="streetAddress">123 Guitar Road,</span><br>
           <span itemprop="addressLocality">Musicville, Danceistan</span><br>
@@ -67,7 +67,7 @@
       <section class="contact-section">
         <h2>Contact Us</h2>
 
-        <div class="form-wrapper">
+        <div class="form-wrapper" role="form">
 
         
 
@@ -99,7 +99,7 @@
   
     <footer role="contentinfo" class="site-footer">
       <p><small>
-        &copy; 2021 Jam Box Studios <a href="#top">Back to Top</a></small></p>
+        &copy; 2021 Jam Box Studios <a href="#top" role="link">Back to Top</a></small></p>
       
     </footer>
   </div>
